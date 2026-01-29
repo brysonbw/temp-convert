@@ -1,0 +1,29 @@
+[package]
+name = "temp-convert"
+version = "1.0.0"
+edition = "2024"
+description = "A command line tool to convert between common temperature units."
+license = "MIT"
+categories = ["command-line-interface"]
+keywords = [
+  "temp",
+  "temperature",
+  "converter",
+  "cli"
+]
+readme = "README.md"
+homepage = "https://github.com/brysonbw/temp-convert"
+repository = "https://github.com/brysonbw/temp-convert"
+authors = ["Bryson Ward"]
+
+
+[dependencies]
+clap = { version = "4.5.54", features = ["derive"] }
+
+[profile.test]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+lto = true
