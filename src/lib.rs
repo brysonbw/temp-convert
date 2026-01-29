@@ -2,17 +2,17 @@
 //!
 //! ## Install
 //! ```console
-//! $ cargo install temp_convert
+//! $ cargo install temp-convert
 //! ```
 //!
 //! ## Example
 //!```console
-//! $ temp_convert 7 -u c -c k
+//! $ temp-convert 7 -u c -c k
 //! ```
 //!
 //! ## Usage
 //! ```console
-//! temp_convert OPTIONS VALUE
+//! temp-convert OPTIONS VALUE
 //! ```
 //!
 //! Arguments:
